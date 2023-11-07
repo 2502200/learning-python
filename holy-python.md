@@ -225,6 +225,68 @@ str="It's always darkest before dawn."
 print(str)
 ```
 9-b:
+
+#creating a new string from, the existing one, using the 'str[]' and adding the index number of the element we want to use
+```
+str="It's always darkest before dawn."
+ans_1=str[0]+str[1]+str[-1]
+print(ans_1)
+```
+9-c:
+
+#[ .replace() ] for replacing items in a string
+```
+str="It's always darkest before dawn."
+str=str.replace(".","!")
+print(str)
+```
+9-d and 9-e:
+
+#[ .lower() ] for lowercase characters and [ .upper() ] for uppercase characters
+```
+str="EVERY Strike Brings Me Closer to the Next Home run."
+str=str.lower()
+print(str)
+```
+```
+str="don't stop me now."
+str=str.upper()
+print(str)
+```
+9-f:
+
+#to cappitalize the first letter [ -capitalize() ]
+```
+str="there are no traffic JamS Along The extra mile."
+str=str.capitalize()
+print(str)
+```
+9-i:
+
+#to get the index of a character [ .index() ]
+```
+str="The best revenge is massive success.
+ans_1=str.index('v')
+print(ans_1)
+```
+9-j:
+
+```
+str="The best revenge is massive success."
+ans_1=str.find('m')
+print(ans_1)
 ```
 
+## 11) sort exercises
 
+11-a:
+
+#to sort the list in ascending order [ .sort() ]
+```
+lst=[11, 100, 99, 1000, 999]
+lst.sort()
+print(lst)
+```
+11-b:
+
+```
