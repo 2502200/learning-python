@@ -1,7 +1,9 @@
 # ***Begginer Python Exercises***
 ## 1) print() function
 
-1-a: print("Hello World")
+1-a: 
+
+print("Hello World")
 
 1-b: 
 ```
@@ -9,7 +11,9 @@ my_text = "Hello World"
 print(my_text)
 ```
            
-1-c: print("Hi!", "How are you?")
+1-c: 
+
+print("Hi!", "How are you?")
 
 ## 2) variables
 
@@ -134,5 +138,93 @@ gift_list.append("pajamas")
 print(gift_list)
 ```
 6-e:
+
+#[ .append()] can be used for appending another list in an existing list
 ```
+gift_list=['socks', '4K drone', 'wine', 'jam']
+gift_list.append(["socks","tshirt","pajamas"])
+print(gift_list)
+```
+6-f:
+
+#[ .insert() ] can be used to add a specific element into the list at a specified place
+```
+gift_list=['socks', '4K drone', 'wine', 'jam']
+gift_list.insert(2,"slippers")
+print(gift_list)
+```
+6-g:
+
+#[ .index() ] shows index number of an element in the list
+```
+lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
+answer_1=lst.index(8679)
+print(answer_1)
+```
+
+6-h:
+
+```
+lst=["CRV", "Outback", "XC90", "GL", "Cherokee", "Escalade"]
+lst.append(["Navigator","Suburban"])
+print(lst)
+```
+
+6-i:
+
+#[ .remove() ] is used to remove the last item on the list
+```
+lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
+lst.remove(99)
+print(lst)
+```
+
+6-j:
+
+#[ .reverse() ] is used for reversing the list
+```
+lst=[55, 777, 54, 6, 76, 101, 1, 2, 8679, 123, 99]
+lst.reverse()
+print(lst)
+```
+6-k:
+
+#[ .count() ] to get the number of times that an element has appeared on the list
+```
+lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+answer_1=lst.count(6)
+print(answer_1)
+```
+6-l:
+
+#'.sum(lst)' to see the sum of all the numbers on the list
+```
+lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+answer_1=sum(lst)
+print(answer_1)
+```
+6-m and 6-n:
+
+#'min(lst)9 to get the lowest value in the list and 'max(lst)' to get the highest value in the list
+```
+lst=[55, 6, 777, 54, 6, 76, 101, 1, 6, 2, 6]
+answer_1=min(lst)
+print(answer_1)
+```
+```
+answer_1=max(lst)
+print(answer_1)
+```
+# 9) string exercises
+
+#always inside quotation marks
+
+9-a:
+```
+str="It's always darkest before dawn."
+print(str)
+```
+9-b:
+```
+
 
