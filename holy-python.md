@@ -96,3 +96,29 @@ print(answer_8)
 
 ## 6) list exercises
 
+6-a:
+```
+lst=[11, 100, 99, 1000, 999]
+answer_1=lst[0]
+print(answer_1)
+```
+6-b:
+```
+lst=[11, 100, 99, 1000, 999]
+print(lst[1])
+```
+6-c:
+```
+lst=[11, 100, 99, 1000, 999]
+answer_1=lst[-1]
+print(answer_1)
+```
+6-d:
+```
+gift_list=['socks', '4K drone', 'wine', 'jam']
+gift_list.append("pajamas")
+print(gift_list)
+```
+6-e:
+```
+
