@@ -96,4 +96,3 @@ print(answer_8)
 
 ## 6) list exercises
 
-6-a:
