@@ -1,4 +1,4 @@
-## 1) Python - string exercises
+## 1) [Python - string exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_strings1)
 #using 'len()' to print the length of a string
 ```
 x = "Hello World"
