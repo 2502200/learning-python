@@ -70,4 +70,54 @@ print(txt.find("old"))
 #the same can be done with '.index( )'
 
 ## 2) [Python - lists exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_lists1)
+#created using '[ ]' = square brackets; to store multiple items in a single variable 
+
+#items in a list have a defined order but can be added, removed or changed
+
+#lists are collection data types which allow duplicate members
+
+#'len( )' shows the amount items in a list 
+```
+fruits = ["apples", "bananas", "cherries", "oranges", "kiwi", "mango"]
+print(len(fruits))
+```
+#printing certain items from lists, e.g. printing 2nd item from fruits list
+```
+fruits = ["apple", "banana", "cherry"]
+print(fruits[1])
+```
+#changing items in a list 
+```
+fruits = ["apple", "banana", "cherry"]
+fruits[0] = "kiwi"
+print(fruits)
+```
+#'.append( )' to add items to the end of the list
+```
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print(fruits)
+```
+#'.insert( )' to insert items to the list at a specified place
+```
+fruits = ["apple", "banana", "cherry"]
+fruits.insert(1,"lemon")
+print(fruits)
+```
+#'.remove( )' to remove specified items from the list
+```
+fruits = ["apple", "banana", "cherry"]
+fruits.remove("banana")
+print(fruits)
+```
+#negative indexing can be used to print last item of the list
+```
+fruits = ["apple", "banana", "cherry"]
+print(fruits[-1])
+```
+#range of indexes can be used to get specified values from the list, the items will be printed as a part of new list
+```
+fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(fruits[2:5])
+```
 
