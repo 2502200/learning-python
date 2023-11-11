@@ -69,4 +69,5 @@ print(txt.find("old"))
 ```
 #the same can be done with '.index( )'
 
+## 2) [Python - lists exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_lists1)
 
