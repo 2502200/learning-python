@@ -254,3 +254,68 @@ else:
 ```
 #the block of code won't be executed if the loop breaks
 
+## 4) [Python - Booleans exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_booleans1)
+
+#booleans represent either: True or False
+
+#Python will return boolean answer when two values are compared
+```
+print(10 > 9)
+```
+#in this case, the boolean answer will be True since 10 is greater than 9
+```
+print(10 == 9)
+print(10 < 9)
+```
+#here the boolean answer will be: False
+
+#'bool()' function evaluates any value and gives a True or False answer in return
+
+#any value is True if it has some content; any string and list is True except empty ones and any number is True except 0
+```
+bool("abc")
+```
+or
+```
+print(bool("abc"))
+```
+#this string will give the answer True
+```
+print(bool(0))
+```
+#the number 0 gives the answer False
+
+#the value False and None, as well as empty values like (), [], {}, '', "" give the answer False
+
+#functions can also return a boolean answer, and based on the boolean answer a code can be executed
+```
+def myFunction():
+    return True
+if myFunction():
+    print('yes')
+else:
+    print('no')
+```
+#the executed code will be yes
+```
+def myFunction():
+    return True
+if not myFunction():
+    print('no')
+else:
+    print('yes')
+```
+#here the executed code will be yes as well
+
+#'isinstance()' can also be used to determine the data type of an object
+```
+x = 200
+print(isinstance(x, int))
+```
+#this will return True, since 200 is an integer
+```
+x = 200
+print(isinstance(x, float))
+```
+#this will return False since 200 is not a float
+
