@@ -121,3 +121,83 @@ fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(fruits[2:5])
 ```
 
+## 3) [Python - If...Else exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_ifelse1)
+
+```
+a = 50
+b = 10
+if a > b:
+    print('Hello world')
+```
+```
+a = 50
+b = 10
+if a != b:
+    print('Hello world')
+```
+#the '!=' stands for 'not equal to'
+```
+a = 50
+b = 10
+if a == b:
+    print('yes')
+else:
+    print('No')
+```
+#'else' is used for anything which isn't defined with previous conditions
+
+#'==' stands for 'equal to'
+```
+a = 50
+b = 10
+if a == b:
+    print('1')
+elif a > b:
+    print('2')
+else:
+    print('3')
+```
+#'elif' is used when previous conditions weren't true so other coditions should be tried instead
+
+#'and' is used to combine conditional statements
+```
+a = 2
+b = 2
+c = 2
+if a == b and c == d:
+  print("Hello")
+```
+#'or' is another logical operator used for the same reason as 'and'
+```
+if a == b or c == d:
+  print("Hello")
+```
+#indentation/whitespace is important to define the scope in the code
+```
+if 5 > 2:
+ print("Five is greater than two!")
+```
+#if they're short, the 'if' and 'else' statements can be put on the same line
+```
+print("Yes") if 5 > 2 else print("No")
+```
+#'if' statments can be inside 'if' statments => nested 'if' statments
+```
+x = 22
+if x > 20:
+ print(True)
+ if x > 30:
+  print('greater than 30')
+ else:
+    print('not greater than 30')
+```
+#'not' is also a logical operator used to reverse the results of conditional statments
+```
+x = 22
+if x > 20:
+ print(True)
+ if not x > 30:
+  print('not greater than 30')
+```
+ 
+ 
