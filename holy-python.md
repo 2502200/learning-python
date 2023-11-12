@@ -287,6 +287,27 @@ lst=[11, 100, 99, 1000, 999]
 lst.sort()
 print(lst)
 ```
-11-b:
 
+## 8) [For loop exercises](https://holypython.com/intermediate-python-exercises/exercise-8-python-for-loop/)
+
+8-a:
+```
+
+lst=["koala", "cat", "fox", "panda", "chipmunk", "sloth", "penguin", "dolphin"]
+for animal in lst:
+    print(animal)
+```
+8-b:
+```
+lst=["Sam", "Lisa", "Micha", "Dave", "Wyatt", "Emma", "Sage"]
+for name in lst:
+    print("Hello!, " + name)
+```
+8-c:
+```
+str="Antarctica"
+for letter in str:
+    print(letter)
+```
+8-d:
 ```
