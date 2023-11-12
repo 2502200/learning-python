@@ -311,3 +311,36 @@ for letter in str:
 ```
 8-d:
 ```
+str="Civilization"
+c=0
+for i in str:
+    c = c + 1
+    print(c)
+```
+8-e:
+```
+lst1=["Phil", "Oz", "Seuss", "Dre"]
+lst2=[]
+for item in lst1:
+    lst2.append("Dr. " + item)
+    print(lst2)
+```
+8-f:
+```
+lst1=[3, 7, 6, 8, 9, 11, 15, 25]
+lst2=[]
+for number in lst1:
+    lst2.append(number**2)
+    print(lst2)
+```
+8-g:
+```
+lst1=[111, 32, -9, -45, -17, 9, 85, -10]
+lst2=[]
+for number in lst1:
+    if number > 0:
+        lst2.append(number)
+        print(lst2)
+```
+
+
