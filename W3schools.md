@@ -199,5 +199,58 @@ if x > 20:
  if not x > 30:
   print('not greater than 30')
 ```
- 
- 
+
+## 4)[Python - For loops exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_for_loops1)
+
+#'for loops' => used to iterate over a sequence (list, string, set...); a set of statments will be once for each item in a sequence
+```
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+    print(x)
+```
+#'continue' is used to 'skip' over an item (to not print it)
+```
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    continue 
+  print(x)
+```
+#'range()' is used to loop through a set of a specified number of times; it always starts from 0 in increments of 1 and it ends at a specified number(doesn't print it out though)
+```
+for x in range(6):
+  print(x)
+```
+#'break' is used to exit the loop before it has finished looping through all the items
+```
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
+```
+#loops can be nested inside loops => 'nested loop' => so the inner loop will be executed one time for each iteration of the outer loop
+```
+adj = ['red', 'big', 'tasty', 'delicious']
+furits = ['apples', 'bananas', 'cherry']
+for word in adj:
+    for fruit in fruits:
+        print(word, fruit)
+```
+#'else' can also be used in loops; specifies a block of code to be executed when the loop is finished
+```
+for x in range(20):
+    print(x)
+else:
+    print('yey finished')
+```
+#the starting value and the increment in the 'range()' function can also be defined
+```
+for numbers in range(1,30,3):
+    if numbers == 10: break
+    print(numbers)
+else:
+    print('finished it')
+```
+#the block of code won't be executed if the loop breaks
+
