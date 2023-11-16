@@ -254,7 +254,7 @@ else:
 ```
 #the block of code won't be executed if the loop breaks
 
-## 4) [Python - Booleans exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_booleans1)
+## 5) [Python - Booleans exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_booleans1)
 
 #booleans represent either: True or False
 
@@ -318,4 +318,50 @@ x = 200
 print(isinstance(x, float))
 ```
 #this will return False since 200 is not a float
+
+## 6)[Python - Dictionary Exercises](https://www.w3schools.com/python/python_dictionaries_exercises.asp)
+
+#dictionaries store data values ina  form of a key:values pairs/items, they are changeable, ordered and don't allow duplicates, created using curly brackets '{}'
+
+#to get a value of a certain 'key name' from a dictionary, '.get("")' method can be used
+```
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+print(car.get("model"))
+```
+#to change a value of a key in a dictionary, e.g. changing a value of the year from 1964 to 2020:
+```
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+car["year"]= 2020
+```
+#to add a new key:value pair, the same method can be used:
+```
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+car["color"] = "red"
+```
+#or '.update({"":""})' can be used to add new items, or to update old ones:
+```
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+car.update({"color": "black"})
+```
+#'.pop("")' is used to remove the item with specified key name, from the dictionary
+```
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+car.pop("model")
+```
+#'del' can also be used to remove item from the dictionary, with specified key name:
+```
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+del car["model"]
+```
+#'.popiem()' removes last inserted item
+
+#'.clear()' empties the dictionary
+```
+car = {"brand": "Ford", "model": "Mustang", "year": 1964}
+car.clear()
+```
+#'.copy()' is used to make a copy of a dictionary
+```
+car2 = car.copy()
+```
 
