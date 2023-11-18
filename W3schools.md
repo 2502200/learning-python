@@ -365,3 +365,55 @@ car.clear()
 car2 = car.copy()
 ```
 
+## 7) [Python - functions exercises](https://www.w3schools.com/python/exercise.asp?filename=exercise_functions1)
+
+#a function is a block of code which runs when it's called
+
+#'def' is used to define a function
+```
+def my_function():
+  print("Hello from a function")
+```
+#functions name is used to execute it/call it
+```
+def my_function():
+  print("Hello from a function")
+
+my_function()
+```
+#information can be passed into a function
+
+#parameters are variables inside the parentheses of a function definition
+
+#a value sent to a function when it's called, is an argument
+```
+def my_function(fname, lname):
+  print(fname)
+```
+#'return' statment is used to let a function return a value
+```
+def my_function(x):
+  return 5 + x
+```
+#'*' is used infront of a parameter name (in the function definition), if it's unknown how many arguments will be passed into a function later on
+```
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("Emili", "Susane", "Max")
+```
+#arguments can be passed into a function with a key = value syntax ( so that the order of arguments doesn't matter)
+```
+def my_function(city2, city1, city3):
+  print("I live in " + city1)
+
+my_function(city1 = "Vienna", city2 = "London", city3 = "Paris")
+```
+#'**' is added before the parameter name in the function definition, when it is unknown how many keyword arguments will be passed into a function
+```
+def my_function(**kid):
+  print("His last name is " + kid["lname"])
+
+my_function(fname = "Tobias", lname = "Refsnes", age = 12)
+```
+
