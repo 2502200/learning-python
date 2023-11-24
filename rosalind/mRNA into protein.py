@@ -22,7 +22,7 @@ def translation(mRNA):
     proteinSEQ = ''
 #for every item from 0(beginning) to the entire length of mRNA seq, in steps of three
     for item in range(0, len(mRNA), 3):
-#'letter' as a variable for RNAcodons of the mRNA seq again in steps of three
+#'letter' as a variable for RNAcodons in the mRNA seq in steps of three
         letter = RNAcodons[mRNA[item:item+3]]
 #if letter equals 'Stop', break the loop
         if letter == 'Stop':
