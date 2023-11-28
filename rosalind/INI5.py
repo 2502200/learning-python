@@ -15,3 +15,5 @@ for lines in range(1, len(filelist)):
         linelist.append(filelist[lines])
 #appending lines to a list and printing a list without square brackets using a '*'
 print(*linelist)
+
+f.close()
